@@ -1,5 +1,6 @@
-package com.dktechno.demo.students;
+package com.dktechno.demo.studentprofile;
 
+import com.dktechno.demo.students.Student;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,6 +1,7 @@
 package com.dktechno.demo.students;
 
 import com.dktechno.demo.schools.School;
+import com.dktechno.demo.studentprofile.StudentProfile;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
