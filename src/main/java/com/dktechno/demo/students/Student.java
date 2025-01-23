@@ -38,4 +38,11 @@ public class Student {
     @JoinColumn(name = "school_id")
     @JsonBackReference
     private School school;
+
+    public Student(String firstname, String lastname, String email, int age) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.email = email;
+        this.age = age;
+    }
 }
